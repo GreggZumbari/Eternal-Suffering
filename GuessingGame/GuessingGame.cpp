@@ -4,6 +4,10 @@ using namespace std;
 
 int main()
 {
-  cout << "Output";
+  char[] input;
+  cin >> input;
+  for (int i = 0; i < input.length; i++) {
+    cout << input[i];
+  }
   return 0;
 }
