@@ -1,3 +1,11 @@
+/*
+ *  This is a basic guessing game in C++. The computer selects a random number in between 0
+ *  and 100. The player then enters a number. If it is too high or too low, it will say so.
+ *  The objective of the game is to guess the number in as little tries as possible.
+ *
+ *  @author Greggory Hickman
+ *  September 2019
+ */
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
@@ -59,6 +67,7 @@ int main()
       }
       //If they guessed the right number
       if (input == real) {
+    tries++;
 	playing = false;
 	consent = '?';
         std::cout << "Congratulations, you have successfully guessed the number " << real << " in only " << tries << " tries." << endl;
