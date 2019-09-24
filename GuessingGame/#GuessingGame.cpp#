@@ -38,8 +38,8 @@ int main()
         std::cin >> input;
       }
       catch (int ex) {
+
 	input = max + 69;
-	input.clear();
       }
 
       //If input is invalid, keep trying until the stupid user finally gives you a correct input
