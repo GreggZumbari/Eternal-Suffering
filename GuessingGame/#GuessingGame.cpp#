@@ -67,7 +67,7 @@ int main()
       }
       //If they guessed the right number
       if (input == real) {
-    tries++;
+	tries++;
 	playing = false;
 	consent = '?';
         std::cout << "Congratulations, you have successfully guessed the number " << real << " in only " << tries << " tries." << endl;
